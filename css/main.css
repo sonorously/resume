@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-size: 62.5%
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.one{
+    font-size: 6rem;
+    text-align: center;
+}
+
+.two,.three,.four,.five,.six{
+    background:url(../img/bk.png);
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    color: #7a90a4;
+    font-size: 6rem;
+    text-align: center;
+}
+/*第二页*/
+.touXiang{
+    width: 100%;
+    height: 45rem;
+    overflow: hidden;
+}
+.touXiang>span{
+    display: block;
+    width: 30rem;
+    height: 30rem;
+    background:url(../img/my.png);
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    margin-top: 10rem;
+    margin-left: calc(50% - 15rem);
+    overflow: hidden;
+}
+.xuanZhuan{
+    display: block;
+    width: 28rem;
+    height: 28rem;
+    margin-top: 1rem;
+    margin-left: calc(50% - 14rem);
+    background:url(../img/touxiang2.png);
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -webkit-animation:rotateImg 20s linear infinite;
+    animation:rotateImg 20s linear infinite;
+}
+@keyframes rotateImg {
+    0% {transform : rotate(0deg);}
+    100% {transform : rotate(360deg);}
+}
+@-webkit-keyframes rotateImg {
+    0%{-webkit-transform : rotate(0deg);}
+    100%{-webkit-transform : rotate(360deg);}
+}
+.pBg{
+    background: url("../img/tbg.png")no-repeat 50%;
+    -webkit-background-size: 75% 100%;
+    background-size: 75% 100%;
+}
+.pBg>span{
+    display: block;
+}
+/*第三页*/
+.swiper-containee{
+    max-width:640px;
+}
+#nav{
+    height: 15rem;
+    width: 90%;
+    line-height: 12rem;
+}
+#nav>ul>li{
+    float: left;
+    text-align:center;
+    width: 33%;
+}
+#page .swiper-slide{
+    height:calc(100% - 31rem);
+    padding: 5rem 8rem 8rem 8rem;
+}
+.top{
+    height: 8rem;
+    margin: 5rem 0 3rem 0;
+    background: url("../img/tbg.png")no-repeat 50%;
+    -webkit-background-size: 75% 100%;
+    background-size: 75% 100%;
+}
+.top>span{
+    display: inline-block;
+}
+.pageChange{
+    width: 100%;
+    height: 100%;
+    background: url("../img/kuang.png");
+    background-size: 100% 100%;
+    padding: 5rem;
+}
+.pageList{
+    width: 100%;
+    height: calc(100% - 16rem);
+    background: url("../img/kuang.png")no-repeat 50% 16%;
+    background-size: 88% 95%;
+    padding: 14rem;
+}
